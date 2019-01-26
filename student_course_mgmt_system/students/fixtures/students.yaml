@@ -1,0 +1,9 @@
+- model: students.student
+  pk: 1
+  fields:
+    name: Matt Harris
+    courses: [1, 2]
+- model: students.student
+  pk: 2
+  fields:
+    name: Jen Fang
