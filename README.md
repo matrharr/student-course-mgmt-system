@@ -12,24 +12,26 @@
 
 ## Endpoint Documentation
 
-### GET `/courses`
+### Courses
+#### GET `/courses`
 - Return a list of all courses.
-### GET `/courses/:course_id`
+#### GET `/courses/:course_id`
 - Return a single course.
-### GET `/courses?title=:course_title`
+#### GET `/courses?title=:course_title`
 - Return all courses that match searched title.
-### POST `/courses`
+#### POST `/courses`
 - Create a new course.
-### DELETE `/courses/:course_id`
+#### DELETE `/courses/:course_id`
 - Remove a course.
 
-### GET `/students`
+### Students
+#### GET `/students`
 - Return a list of all students.
-### GET `/students/:student_id`
+#### GET `/students/:student_id`
 - Return a single student.
-### GET `/students?name=:student_name`
+#### GET `/students?name=:student_name`
 - Return all students that match searched name.
-### POST `/students`
+#### POST `/students`
 - Create a new student.
-### DELETE `/student/:student_id`
+#### DELETE `/student/:student_id`
 - Remove a student.
