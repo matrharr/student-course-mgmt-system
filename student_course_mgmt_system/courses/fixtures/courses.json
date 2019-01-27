@@ -1,0 +1,23 @@
+[
+    {
+        "model": "courses.course",
+        "pk": 1,
+        "fields": {
+            "title": "English"
+        }
+    },
+    {
+        "model": "courses.course",
+        "pk": 2,
+        "fields": {
+            "title": "Computer Science"
+        }
+    },
+    {
+        "model": "courses.course",
+        "pk": 3,
+        "fields": {
+            "title": "History"
+        }
+    }
+]
