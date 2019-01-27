@@ -1,0 +1,26 @@
+[
+    {
+        "model": "students.student",
+        "pk": 1,
+        "fields": {
+            "name": "Matt Harris",
+            "courses": [1, 2, 3]
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 2,
+        "fields": {
+            "name": "Jen Fang",
+            "courses": [2, 3]
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 3,
+        "fields": {
+            "name": "Jerry Seinfeld",
+            "courses": [3]
+        }
+    }
+]
